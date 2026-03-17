@@ -1,0 +1,190 @@
+(footprint "MDA5030-4R7M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.4544 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7e87ecf4-9415-46a8-a90e-4b76fd740cbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MDA5030-4R7M"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e39f08c0-b054-4267-a21a-eaa1bb333b43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c552d6c-0fe6-4aac-89b3-43783797cdf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49e712c6-8232-4971-9c4b-8c47e15edbf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cdf8cd8-f827-4bbc-8cb3-f88c413672ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2847477"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "65c45629-c4c0-48a7-b378-0a8a9fa2d13f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.8448 -2.5908)
+		(end -2.8448 -1.3716)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "194f7a29-fd09-49c6-b5ee-cca6b37ee8e1")
+	)
+	(fp_line
+		(start -2.8448 1.3208)
+		(end -2.8448 2.5908)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9b1d7a3-93d0-4d0f-9621-3619b8c4cc07")
+	)
+	(fp_line
+		(start -2.8448 2.5908)
+		(end 2.8448 2.5908)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bd40a78b-8a54-4d3a-9789-f028bb9b19f8")
+	)
+	(fp_line
+		(start 2.8448 2.5908)
+		(end 2.8448 1.3716)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fe6c5edb-9a65-4cbf-9343-341d4b62542c")
+	)
+	(fp_line
+		(start 2.8956 -2.5908)
+		(end -2.8448 -2.5908)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c2a71a09-8567-484e-b8b9-20f639380471")
+	)
+	(fp_line
+		(start 2.8956 -1.3716)
+		(end 2.8956 -2.5908)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6adc4597-34dc-4488-980b-a7a8a465a9b7")
+	)
+	(fp_rect
+		(start -3.2004 -2.8448)
+		(end 3.2004 2.8448)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "822e1f34-1076-4232-963b-9e2c8f6db5ee")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c199ecd7-6de0-42bb-bd76-55e084dc80a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.2 0)
+		(size 1.6 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "230b18b3-7533-4249-aa08-3990b4981b05")
+	)
+	(pad "2" smd rect
+		(at 2.2 0)
+		(size 1.6 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "180fbdb7-90ac-404e-aef0-5ad62d345ba4")
+	)
+	(model "D:/Trabajo_WNR/Business Center/Sistema Domotico/Placa Electronica/PCB-Cuarto/LIBRARIES/MDA5030-4R7M/MDA5030-4R7M.pretty/MDA5030-4R7M.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

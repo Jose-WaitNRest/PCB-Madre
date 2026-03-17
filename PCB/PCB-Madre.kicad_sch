@@ -1,0 +1,738 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "118ffa26-3c65-424a-af71-04338c4de0b0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 71.882 133.604)
+		(uuid "0f8caf99-3316-4c23-bd2d-16457f3ab197")
+	)
+	(no_connect
+		(at 71.882 151.638)
+		(uuid "d49fe48f-c46e-48ba-8876-323b97f645df")
+	)
+	(no_connect
+		(at 71.882 143.002)
+		(uuid "da1cab65-1ae9-434b-b4a4-020a2ade41d1")
+	)
+	(no_connect
+		(at 71.882 160.02)
+		(uuid "e1441fd8-9a73-449f-96c5-414154ec7905")
+	)
+	(wire
+		(pts
+			(xy 106.426 88.392) (xy 132.588 88.392)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef435eb-0b0c-4d34-abf9-0015bd23c9fe")
+	)
+	(wire
+		(pts
+			(xy 155.194 72.39) (xy 155.194 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ba5ce3-7d98-4a79-89da-1d0fadaee9e7")
+	)
+	(wire
+		(pts
+			(xy 177.8 87.884) (xy 200.66 87.884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a7922f-eb8f-438a-9912-2c8509d5ac37")
+	)
+	(wire
+		(pts
+			(xy 83.312 72.39) (xy 83.312 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1baf26-1ef1-4df0-b50d-45a089208030")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.994) (xy 200.66 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ff4b07-36c9-47bc-b181-ba1c2ae880a6")
+	)
+	(wire
+		(pts
+			(xy 177.8 83.312) (xy 200.66 83.312)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0125c8-8f67-42c6-9c08-08dc4f695949")
+	)
+	(rectangle
+		(start 61.722 124.968)
+		(end 106.426 163.322)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2ff83086-a3d9-4d22-bbca-52d26edbd385)
+	)
+	(text "- ENTRADA DE ALIMENTACION 24V\n- CONTROL DE CHAPA DE 12V@0.2A\n- CONEXION RS485 EN FORMATO DAYSI CHAIN\n- UPDATE DEL FIRMWARE POR OTTA\n- CONECTORES DEBEN RECIBIR HASTA CABLE 12"
+		(exclude_from_sim no)
+		(at 91.948 -13.208 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6f4d0bd5-e1ba-41da-8678-2f48fe85f5b4")
+	)
+	(text "HOLES"
+		(exclude_from_sim no)
+		(at 61.214 122.682 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "ac153478-5422-4bb1-853c-d0bc84d2bb8e")
+	)
+	(label "12V_5V"
+		(at 155.194 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b2f10e1-906e-416e-a485-a26e9f94d0d8")
+	)
+	(label "12V_5V"
+		(at 83.312 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e72f2e94-9765-4a90-8587-8c9c197b2320")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 71.882 149.098 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2592b478-724e-4b89-935f-c5138908bcd7")
+		(property "Reference" "H3"
+			(at 74.93 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 74.93 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 71.882 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.882 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 71.882 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b957030-99b0-47f2-98be-dc5827410a97")
+		)
+		(instances
+			(project "PCB-Cuarto"
+				(path "/118ffa26-3c65-424a-af71-04338c4de0b0"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 71.882 140.462 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e5910e0-2070-4e83-92d6-d9b23187098b")
+		(property "Reference" "H2"
+			(at 74.93 137.9219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 74.93 140.4619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 71.882 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.882 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 71.882 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b3e828-27d4-4235-8593-691c3b62ca75")
+		)
+		(instances
+			(project "PCB-Cuarto"
+				(path "/118ffa26-3c65-424a-af71-04338c4de0b0"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 71.882 131.064 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a8988b2-5d01-4644-8ee0-e10ef8663d31")
+		(property "Reference" "H1"
+			(at 74.93 128.5239 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 74.93 131.0639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 71.882 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.882 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 71.882 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0fc1efc-99dd-41c2-a157-bbb83f791439")
+		)
+		(instances
+			(project ""
+				(path "/118ffa26-3c65-424a-af71-04338c4de0b0"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 71.882 157.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb2010c3-e7c6-489c-b2e1-bb7c39b65ba3")
+		(property "Reference" "H4"
+			(at 74.93 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 74.93 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 71.882 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.882 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 71.882 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d0b46f9-ef4a-49bb-9d65-16d2f22504cd")
+		)
+		(instances
+			(project "PCB-Cuarto"
+				(path "/118ffa26-3c65-424a-af71-04338c4de0b0"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.588 74.422)
+		(size 45.212 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d482c9b0-d3dc-4677-8cda-69da6efb5749")
+		(property "Sheetname" "MCU"
+			(at 132.588 73.0954 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 132.588 104.2166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FLT" input
+			(at 132.588 88.392 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "992bacd0-b5c3-4c23-8cbb-fad0bca6643e")
+		)
+		(pin "RX" input
+			(at 177.8 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff63648c-7ca6-4c3c-86e7-b1879e6dc79a")
+		)
+		(pin "TX" output
+			(at 177.8 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92900f61-bf08-4213-989b-e486d3857257")
+		)
+		(pin "RS485_EN" output
+			(at 177.8 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1fdef902-0889-4438-bd9f-1de8efb36cb2")
+		)
+		(pin "12V_5V" output
+			(at 155.194 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08d7d0e9-3e85-4959-ad60-73292917299b")
+		)
+		(instances
+			(project "PCB-Madre"
+				(path "/118ffa26-3c65-424a-af71-04338c4de0b0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 61.214 74.422)
+		(size 45.212 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e2751aaa-40ab-491e-8724-b4cb7cd2712b")
+		(property "Sheetname" "POWER"
+			(at 61.214 73.0954 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 61.214 104.2166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FLT" output
+			(at 106.426 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "19be22ba-4a3b-4e72-9ae7-ecef0a696be3")
+		)
+		(pin "12V_5V" input
+			(at 83.312 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9cde513-5821-4d21-a09b-5c4ede65582c")
+		)
+		(instances
+			(project "PCB-Madre"
+				(path "/118ffa26-3c65-424a-af71-04338c4de0b0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 74.422)
+		(size 45.212 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6cc8bac-4400-4ee5-8b53-8fb1b71d0580")
+		(property "Sheetname" "PERIPHERALS"
+			(at 200.66 73.0954 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PERIPHERALS.kicad_sch"
+			(at 200.66 104.2166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX" output
+			(at 200.66 87.884 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ecb37e01-e725-42f6-829e-bdcd96e707dd")
+		)
+		(pin "TX" input
+			(at 200.66 83.312 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "267e05f9-49c1-419a-b0cd-5c370c4296c9")
+		)
+		(pin "RS485_EN" input
+			(at 200.66 78.994 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8284cca-df3e-4159-8815-92c3f332ff37")
+		)
+		(instances
+			(project "PCB-Madre"
+				(path "/118ffa26-3c65-424a-af71-04338c4de0b0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

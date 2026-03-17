@@ -1,0 +1,215 @@
+(footprint "CSD19537Q3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DQG_VSON-CLIP")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at -0.36791 -2.8448 0)
+		(layer "F.SilkS")
+		(uuid "5aedf3e5-8397-466d-b477-3e81fc0812f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DQG_VSON-CLIP"
+		(at -0.36791 -0.00685 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cfb800c9-1118-45c5-87f5-0108e6cb09a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0de10c50-bf93-4b26-8df9-d01c0091f417")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "934d8f22-471b-4886-9701-2570ebc7f2af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d379fd39-bc69-4ea9-968e-d0d468833161")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 -1.65)
+		(end -1.65 1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18fe13b2-b45a-416e-a8ec-ff2efdf3a029")
+	)
+	(fp_line
+		(start 1.65 1.65)
+		(end 1.65 -1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "266a783a-6c50-4a55-b25c-8ec83be7a0e1")
+	)
+	(fp_circle
+		(center -1.001 1.946)
+		(end -1.001 1.973)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4ff3eb84-28ea-48a5-8074-390ee1e91948")
+	)
+	(fp_line
+		(start -1.65 -1.65)
+		(end 1.65 -1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2e1a303-fb48-457a-bbb4-e2d297d09ac8")
+	)
+	(fp_line
+		(start -1.65 1.65)
+		(end -1.65 -1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f045fb91-9ee6-4065-84bf-fd6063e27e63")
+	)
+	(fp_line
+		(start 1.65 -1.65)
+		(end 1.65 1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d43b2ff4-08f2-4523-af0e-8b1fc388c2a0")
+	)
+	(fp_line
+		(start 1.65 1.65)
+		(end -1.65 1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2260ecb0-0afb-4a7b-8e50-9226df51679f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.36791 -0.00685 0)
+		(layer "F.Fab")
+		(uuid "e14d5b5e-ba1e-41ec-8ff5-93b305b375cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.975 1.435)
+		(size 0.5 0.63)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "abf95af6-c676-4877-bf96-c1e5489d8ad6")
+	)
+	(pad "1" smd rect
+		(at -0.325 1.435)
+		(size 0.5 0.63)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "960a6603-01ea-486f-badb-1e322127c8f8")
+	)
+	(pad "1" smd rect
+		(at 0.325 1.435)
+		(size 0.5 0.63)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "49652739-983c-4f3a-9c06-7e4351d154c4")
+	)
+	(pad "2" smd rect
+		(at 0.975 1.435)
+		(size 0.5 0.63)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7a9bf6fe-3298-4c2c-b6d3-8f1a6bdb0fbd")
+	)
+	(pad "3" smd rect
+		(at -0.975 -1.545 90)
+		(size 0.41 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "50959eea-238a-488a-8bb4-d02d93af225c")
+	)
+	(pad "3" smd rect
+		(at -0.325 -1.545 90)
+		(size 0.41 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aa0e2591-e0b0-46ee-88a1-5ed09e06f479")
+	)
+	(pad "3" smd rect
+		(at 0 -0.39 90)
+		(size 1.9 2.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "37f4f792-53c7-4924-832f-24070c7297e4")
+	)
+	(pad "3" smd rect
+		(at 0.325 -1.545 90)
+		(size 0.41 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7b6c2f8c-0582-4313-83b6-c886535939bb")
+	)
+	(pad "3" smd rect
+		(at 0.975 -1.545 90)
+		(size 0.41 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "83e1a295-096c-4a9e-9286-d391058d583b")
+	)
+	(model "CSD19537Q3.stp"
+		(offset
+			(xyz -0.009999999626 0.009999999626 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
