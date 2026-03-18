@@ -4411,7 +4411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WIZ850IO:WIZ850IO"
+		(property "Footprint" "WIZ850IO"
 			(at 197.358 156.642 0)
 			(effects
 				(font

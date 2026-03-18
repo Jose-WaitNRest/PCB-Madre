@@ -4214,8 +4214,16 @@
 		(uuid "e5e2f330-8f0f-440c-885d-2c8107647393")
 	)
 	(no_connect
+		(at 134.874 86.36)
+		(uuid "109c4fdd-2851-452f-a309-0f9a2071768b")
+	)
+	(no_connect
 		(at 104.394 114.3)
 		(uuid "1147473a-a26a-4bfc-ab55-33216d97101d")
+	)
+	(no_connect
+		(at 134.874 106.68)
+		(uuid "12fd28a4-4077-46b8-b6e4-6c1ed560f1e7")
 	)
 	(no_connect
 		(at 104.394 96.52)
@@ -4262,8 +4270,16 @@
 		(uuid "678a5e67-9217-46f1-8224-ce6d6162beab")
 	)
 	(no_connect
+		(at 134.874 104.14)
+		(uuid "71dbc2eb-1566-4074-8a1e-cd7f126445c6")
+	)
+	(no_connect
 		(at 134.874 96.52)
 		(uuid "7c631717-94c5-4b3a-bf76-7adce69290cc")
+	)
+	(no_connect
+		(at 134.874 101.6)
+		(uuid "8c348c98-188b-4937-8823-763611014931")
 	)
 	(no_connect
 		(at 134.874 116.84)
@@ -4300,6 +4316,16 @@
 	(no_connect
 		(at 134.874 114.3)
 		(uuid "f7d0f8d3-f4cb-4f5b-b8c4-ea424c21c46b")
+	)
+	(wire
+		(pts
+			(xy 100.584 111.76) (xy 104.394 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b8477d-c563-40b1-9c96-46563a12a335")
 	)
 	(wire
 		(pts
@@ -4463,16 +4489,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.874 101.6) (xy 136.652 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "367df1ab-d406-4b55-8fe6-fa641d925105")
-	)
-	(wire
-		(pts
 			(xy 186.436 134.874) (xy 189.484 134.874)
 		)
 		(stroke
@@ -4530,6 +4546,16 @@
 			(type default)
 		)
 		(uuid "4b81bc5e-ed04-4318-b0fc-ffb9de9ec82f")
+	)
+	(wire
+		(pts
+			(xy 100.584 99.06) (xy 104.394 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be00c14-7845-405a-afc4-c3b5ef11250e")
 	)
 	(wire
 		(pts
@@ -5073,16 +5099,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.874 104.14) (xy 136.652 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb878653-9305-4455-8b85-677298b7855b")
-	)
-	(wire
-		(pts
 			(xy 87.63 68.58) (xy 87.63 69.342)
 		)
 		(stroke
@@ -5560,7 +5576,7 @@
 	)
 	(hierarchical_label "RST"
 		(shape input)
-		(at 136.652 101.6 0)
+		(at 100.584 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5568,7 +5584,7 @@
 				(bold yes)
 				(italic yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9ba1f7b8-9975-4cb7-94dd-bc436f50e20b")
 	)
@@ -5586,7 +5602,7 @@
 	)
 	(hierarchical_label "FLT"
 		(shape input)
-		(at 136.652 104.14 0)
+		(at 100.584 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5594,7 +5610,7 @@
 				(bold yes)
 				(italic yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dcebd477-659a-49f9-85cd-836354f466c6")
 	)

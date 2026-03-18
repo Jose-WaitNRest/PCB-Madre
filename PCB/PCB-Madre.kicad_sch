@@ -136,6 +136,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 91.694) (xy 200.66 91.694)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573aa161-64df-4509-88e1-3a17d6f7986d")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.138) (xy 200.66 88.138)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aef171b-f5e1-416b-9473-b4ea801f0410")
+	)
+	(wire
+		(pts
 			(xy 155.194 72.39) (xy 155.194 74.422)
 		)
 		(stroke
@@ -146,7 +166,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 87.884) (xy 200.66 87.884)
+			(xy 177.8 84.328) (xy 200.66 84.328)
 		)
 		(stroke
 			(width 0)
@@ -166,7 +186,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 78.994) (xy 200.66 78.994)
+			(xy 177.8 77.216) (xy 200.66 77.216)
 		)
 		(stroke
 			(width 0)
@@ -176,7 +196,37 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 83.312) (xy 200.66 83.312)
+			(xy 177.8 95.25) (xy 200.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64afdd9-f89c-4cbb-92c0-ced8a4a17579")
+	)
+	(wire
+		(pts
+			(xy 177.8 98.298) (xy 200.66 98.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdbfa27-40bf-418f-946e-fd73bc726699")
+	)
+	(wire
+		(pts
+			(xy 177.8 101.346) (xy 200.66 101.346)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14c3e97-fb76-422f-9eb8-f69a0554c80f")
+	)
+	(wire
+		(pts
+			(xy 177.8 80.772) (xy 200.66 80.772)
 		)
 		(stroke
 			(width 0)
@@ -555,7 +605,7 @@
 			(uuid "992bacd0-b5c3-4c23-8cbb-fad0bca6643e")
 		)
 		(pin "RX" input
-			(at 177.8 87.884 0)
+			(at 177.8 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,7 +615,7 @@
 			(uuid "ff63648c-7ca6-4c3c-86e7-b1879e6dc79a")
 		)
 		(pin "TX" output
-			(at 177.8 83.312 0)
+			(at 177.8 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -575,7 +625,7 @@
 			(uuid "92900f61-bf08-4213-989b-e486d3857257")
 		)
 		(pin "RS485_EN" output
-			(at 177.8 78.994 0)
+			(at 177.8 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,6 +643,56 @@
 				(justify right)
 			)
 			(uuid "08d7d0e9-3e85-4959-ad60-73292917299b")
+		)
+		(pin "RST" input
+			(at 177.8 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0b7c84c8-3154-485b-930a-36f4e09eb278")
+		)
+		(pin "MOSI" output
+			(at 177.8 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4c05090-28f6-4446-945f-9684033540b8")
+		)
+		(pin "CS" output
+			(at 177.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec36861a-d65f-401c-ae41-575f70ba7ff9")
+		)
+		(pin "MISO" input
+			(at 177.8 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d6536e0-c2a6-45ef-a8dc-5d39ec8d7b36")
+		)
+		(pin "CLK" output
+			(at 177.8 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76ee8560-51b5-46cb-bf99-c8ccae8c3385")
 		)
 		(instances
 			(project "PCB-Madre"
@@ -693,7 +793,7 @@
 			)
 		)
 		(pin "RX" output
-			(at 200.66 87.884 180)
+			(at 200.66 84.328 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +803,7 @@
 			(uuid "ecb37e01-e725-42f6-829e-bdcd96e707dd")
 		)
 		(pin "TX" input
-			(at 200.66 83.312 180)
+			(at 200.66 80.772 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +813,7 @@
 			(uuid "267e05f9-49c1-419a-b0cd-5c370c4296c9")
 		)
 		(pin "RS485_EN" input
-			(at 200.66 78.994 180)
+			(at 200.66 77.216 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,6 +821,56 @@
 				(justify left)
 			)
 			(uuid "c8284cca-df3e-4159-8815-92c3f332ff37")
+		)
+		(pin "MOSI" input
+			(at 200.66 91.694 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4eed1544-266d-43fc-a5c4-2b3abf38449d")
+		)
+		(pin "CLK" input
+			(at 200.66 101.346 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fc09e2f-274a-45e9-af64-7b895b1bd5f3")
+		)
+		(pin "CS" input
+			(at 200.66 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e7dbdcd0-6e42-4592-85f2-98f81bc42893")
+		)
+		(pin "MISO" output
+			(at 200.66 98.298 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "976e54d0-93d3-4ad6-8ae3-6180c309703f")
+		)
+		(pin "RST" output
+			(at 200.66 88.138 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73070bcc-df4c-4278-afe1-c32bf19ca7ad")
 		)
 		(instances
 			(project "PCB-Madre"
