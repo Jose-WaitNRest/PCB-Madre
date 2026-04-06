@@ -2569,7 +2569,7 @@
 				)
 			)
 		)
-		(symbol "Power_Management:TPS26631RGE"
+		(symbol "Power_Management:TPS26631PWP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2581,7 +2581,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS26631RGE"
+			(property "Value" "TPS26631PWP"
 				(at 7.62 16.51 0)
 				(effects
 					(font
@@ -2589,7 +2589,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+			(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
 				(at 0 -31.75 0)
 				(effects
 					(font
@@ -2607,7 +2607,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, VQFN-24"
+			(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, HTTSOP-20"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2625,7 +2625,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Texas*RGE0024H*"
+			(property "ki_fp_filters" "HTSSOP*1EP*4.4x6.5mm*P0.65mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2634,7 +2634,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS26631RGE_0_1"
+			(symbol "TPS26631PWP_0_1"
 				(rectangle
 					(start -10.16 15.24)
 					(end 10.16 -17.78)
@@ -2647,7 +2647,7 @@
 					)
 				)
 			)
-			(symbol "TPS26631RGE_1_1"
+			(symbol "TPS26631PWP_1_1"
 				(pin power_in line
 					(at -12.7 12.7 0)
 					(length 2.54)
@@ -2667,6 +2667,24 @@
 					)
 				)
 				(pin passive line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "dVdT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 12.7 -12.7 180)
 					(length 2.54)
 					(name "ILIM"
@@ -2676,7 +2694,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2694,7 +2712,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2712,7 +2730,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2730,7 +2748,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2748,7 +2766,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2766,7 +2784,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2784,7 +2802,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2802,7 +2820,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2814,24 +2832,6 @@
 					(at 12.7 12.7 180)
 					(length 2.54) hide
 					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 10.16 0)
-					(length 2.54) hide
-					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2864,10 +2864,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -10.16 5.08 0)
+				(pin passive line
+					(at 12.7 12.7 180)
 					(length 2.54) hide
-					(name "NC"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2875,78 +2875,6 @@
 						)
 					)
 					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 0 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 10.16 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 5.08 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 2.54 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2964,7 +2892,25 @@
 							)
 						)
 					)
-					(number "25"
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 2.54) hide
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2982,7 +2928,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3000,7 +2946,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3018,7 +2964,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3036,7 +2982,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3054,7 +3000,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3066,24 +3012,6 @@
 					(at 0 -20.32 90)
 					(length 2.54)
 					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -15.24 180)
-					(length 2.54)
-					(name "dVdT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6785,7 +6713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Management:TPS26631RGE")
+		(lib_id "Power_Management:TPS26631PWP")
 		(at 108.458 82.042 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6793,9 +6721,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "72ef9e86-e3be-4f21-9e12-a101266c1b83")
+		(uuid "7d08884d-05cd-454a-9d70-99c7e9b12339")
 		(property "Reference" "U100"
-			(at 110.6521 61.976 0)
+			(at 110.6521 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,8 +6731,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TPS26631RGE"
-			(at 110.6521 64.516 0)
+		(property "Value" "TPS26631PWP"
+			(at 110.6521 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +6740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
 			(at 108.458 113.792 0)
 			(effects
 				(font
@@ -6830,7 +6758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, VQFN-24"
+		(property "Description" "60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, HTTSOP-20"
 			(at 108.458 82.042 0)
 			(effects
 				(font
@@ -6839,7 +6767,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1850273"
+		(property "LCSC" "C2832195"
 			(at 108.458 82.042 0)
 			(effects
 				(font
@@ -6847,84 +6775,72 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "11"
-			(uuid "f95a1bcc-5d3d-4604-bcc3-a2d5dbb9300e")
-		)
-		(pin "6"
-			(uuid "73540c4d-584e-4592-bc9e-2981567d6308")
-		)
-		(pin "10"
-			(uuid "d4201f3f-126e-42dd-94df-d328786b1895")
-		)
-		(pin "21"
-			(uuid "f102a2fb-1065-427b-b318-d1ac340e28de")
-		)
-		(pin "23"
-			(uuid "42cca1c8-b5a2-4324-9276-d68ae5651636")
-		)
-		(pin "12"
-			(uuid "fb69dce0-1c50-4d8d-91a8-3297f08ba393")
-		)
-		(pin "9"
-			(uuid "260bbc4d-5d1e-4137-b0e0-82045bcde5bd")
-		)
-		(pin "24"
-			(uuid "19a18874-b9d9-4b50-a9fa-7863f2c19854")
-		)
-		(pin "17"
-			(uuid "49a2bf92-a3be-47de-bbfc-94c27b4d7dbe")
-		)
-		(pin "2"
-			(uuid "21d5ab63-3fd7-4595-9d7a-2634e61b3bb9")
 		)
 		(pin "13"
-			(uuid "b92354b1-7db6-42db-abd7-547ce872cb2b")
-		)
-		(pin "4"
-			(uuid "e6a8ac18-ff42-4bd8-9712-9c8ebb1ebd22")
-		)
-		(pin "7"
-			(uuid "917c189f-e3b1-4ff0-81c0-179df5f8c05b")
-		)
-		(pin "8"
-			(uuid "7297d5c9-d294-4d0d-90d4-6cbf7685259b")
-		)
-		(pin "1"
-			(uuid "90e84f99-8323-4857-9e3a-67c07be54bb7")
-		)
-		(pin "19"
-			(uuid "58cf7e47-5fd2-4299-b179-2b598143cbb0")
-		)
-		(pin "22"
-			(uuid "67ed82ba-561c-4c00-af61-318ee9ffdd81")
-		)
-		(pin "14"
-			(uuid "334ffe66-0daa-4821-adfd-3a20dce213eb")
+			(uuid "294272b7-715d-41b0-b723-cc17cadc7d99")
 		)
 		(pin "18"
-			(uuid "a7677d34-270a-4418-a589-2ac7aaa55058")
-		)
-		(pin "25"
-			(uuid "85918990-c29e-442f-b2c0-0f25dd26e842")
-		)
-		(pin "5"
-			(uuid "8e963eea-a7cd-40f9-b03c-16cab7839c6d")
+			(uuid "0ceb6e24-d8cb-40ea-a611-25fb0dded396")
 		)
 		(pin "15"
-			(uuid "22eff6fa-1b1c-47b9-b593-6c1b16d3ca38")
+			(uuid "cc68281b-eafe-4ea1-85d6-cdf23f92875f")
 		)
-		(pin "3"
-			(uuid "54b529f7-2fda-4e60-bdc4-e59a8bd301fe")
+		(pin "5"
+			(uuid "39033e6a-332e-4724-9134-e98b17658db8")
 		)
-		(pin "16"
-			(uuid "a2c49e0f-8750-4990-ba11-0a9c82feeebb")
+		(pin "11"
+			(uuid "c8a41efc-5881-4f7e-880e-c074440f63aa")
+		)
+		(pin "10"
+			(uuid "e1b8ab57-b33d-42e6-b2e4-e44fe878da0e")
 		)
 		(pin "20"
-			(uuid "2beaa8fe-7fa1-4bad-88f1-948248bc2a33")
+			(uuid "8ac20614-c548-48a1-b185-af16d3768cf1")
+		)
+		(pin "17"
+			(uuid "c1d052ce-1405-4975-9bd9-433375b59154")
+		)
+		(pin "21"
+			(uuid "bd0bb0f0-1d3c-4536-af2d-e0262d25acef")
+		)
+		(pin "2"
+			(uuid "8b4cf816-e2d6-4e96-9fae-1a7bf14c1819")
+		)
+		(pin "8"
+			(uuid "c81bbce4-5ff0-4072-a700-adb7fc9fc43c")
+		)
+		(pin "1"
+			(uuid "01a1d0e2-69fc-41eb-8f84-be802d3fa436")
+		)
+		(pin "14"
+			(uuid "5cfa6a62-1f38-4cb7-ab04-68ffb9082627")
+		)
+		(pin "9"
+			(uuid "36e8b4e7-438b-4953-901c-adab91b3c399")
+		)
+		(pin "16"
+			(uuid "2bfc1bc2-df51-4119-9243-88513400eb64")
+		)
+		(pin "19"
+			(uuid "bfa6f19e-0927-4d08-80c7-eb76e9a7b8c8")
+		)
+		(pin "3"
+			(uuid "63c7c36b-2339-4622-9e64-bb41536fbaa2")
+		)
+		(pin "12"
+			(uuid "d87eb881-6d75-4d5d-903b-8bcb9139c70d")
+		)
+		(pin "7"
+			(uuid "957c1ded-eb56-40d7-83d9-f985d04c9436")
+		)
+		(pin "4"
+			(uuid "12d16ec8-57c7-414e-8295-0384b0a4062c")
+		)
+		(pin "6"
+			(uuid "640b3308-95c6-4392-8ba8-86525c3e4928")
 		)
 		(instances
-			(project "PCB-Cuarto"
+			(project ""
 				(path "/118ffa26-3c65-424a-af71-04338c4de0b0/e2751aaa-40ab-491e-8724-b4cb7cd2712b"
 					(reference "U100")
 					(unit 1)
