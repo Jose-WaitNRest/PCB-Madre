@@ -1,0 +1,5 @@
+(version 1)
+(rule "USB_to_GND_zone_clearance"
+  (constraint clearance (min 0.8mm))
+  (condition "A.NetClass == 'USB' && B.NetName == 'GND' && B.Type == 'zone'")
+)
